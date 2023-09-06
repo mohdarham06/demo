@@ -27,10 +27,12 @@ git clone <- some link ->
 #### git clone https://github.com/mohdarham06/demo.git 
 
 
+
 ### Status Command
 Display the status of code.
 File status lifecycle--> untracked->unmodified->modified->staged
 #### git status
+
 
 
 ### add
@@ -41,10 +43,12 @@ for all files( 'use git add .' )
 #### git add .
 
 
+
 ### commit
 It is the record of changes
 git commit -m "some message"
 #### git commit -m "Some new files"
+
 
 
 ### Push
@@ -53,4 +57,3 @@ Upload loacl repo content to remote repo
 
 
 
-s

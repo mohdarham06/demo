@@ -52,7 +52,7 @@ git commit -m "some message"
 
 
 ### Push
-Upload loacl repo content to remote repo
+Upload local repo content to remote repo
 #### git push origin main
 
 

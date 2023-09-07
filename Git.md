@@ -23,7 +23,7 @@ helps to colaborate in organised way by tracking history.
 
 ### Clone Command
 Cloning a repo in your local machine.
-git clone <- some link ->
+git clone <- link ->
 * git clone https://github.com/mohdarham06/demo.git
 
 
@@ -38,7 +38,7 @@ File status lifecycle--> untracked->unmodified->modified->staged
 ### add
 Adds new changes in fles in four working directory to the Git staging area.
 git add <- file name ->
-for all files( 'use git add .' )
+for all files (use 'git add .')
 * git add index.html
 * git add .
 
@@ -51,9 +51,33 @@ git commit -m "some message"
 
 
 
-### Push
-Upload local repo content to remote repo
+### push
+Upload local repository content to remote repository
 * git push origin main
+
+
+
+### init
+It is used to create new repository
+* git init
+* git remote add origin <- link ->
+* git remote add origin https://github.com/mohdarham06/project2.git
+* git remote -v      (To verify remote)
+
+
+
+### Git Branches Commands
+* git branch                      (To check remote branches)
+* git branch -M main <-new name-> (To rename branch)
+* git push origin main
+* git push -u origin main         (setting 'origin main' to not repeat(optional))
+* git checkout <-branch name->    (to navigate)
+* git checkout -b <-new branch->  (to create new branch)
+* git branch -d <-branch name->   (to delete branch)
+
+
+
+
 
 
 

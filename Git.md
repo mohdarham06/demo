@@ -77,6 +77,9 @@ It is used to create new repository
 
 
 
+### Merging Code
+git diff <-branch name> (to compare commits,  branches, files & more)
+git merge <-branch name> (to merge 2 branches)
 
 
 

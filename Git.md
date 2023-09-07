@@ -89,5 +89,19 @@ Git Ull is used to fetch and download content from a remote repository and immed
 
 
 
+### Fixing Mistakes
+Case 1: staged changes
+* git reset <-file name->
+* git reset (for all files)
+
+Case 2: commited changes (for one commit)
+* git reset HEAD~1 "some message"
+
+
+
+// Mistake added
+// Mistake added
+
+
 
 

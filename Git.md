@@ -37,8 +37,8 @@ File status lifecycle--> untracked->unmodified->modified->staged
 
 ### add
 Adds new changes in fles in four working directory to the Git staging area.
-git add <- file name ->
-for all files (use 'git add .')
+* git add <- file name ->
+* use 'git add .' (for all files)
 * git add index.html
 * git add .
 
@@ -46,7 +46,7 @@ for all files (use 'git add .')
 
 ### commit
 It is the record of changes.
-git commit -m <-"some message"->
+* git commit -m <-"some message"->
 * git commit -m "learned about branches"
 
 
@@ -78,10 +78,13 @@ It is used to create new repository
 
 
 ### Merging Code
-*git diff <-branch name> (to compare commits,  branches, files & more)
-*git merge <-branch name> (to merge 2 branches)
+* git diff <-branch name> (to compare commits, branches, files & more)
+* git merge <-branch name> (to merge 2 branches)
 OR
 Create a Pull Request (to merge branches)
+
+
+
 
 
 

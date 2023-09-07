@@ -54,6 +54,7 @@ It is the record of changes.
 ### push
 Upload local repository content to remote repository
 * git push origin main
+* git push -u origin main         (to simply use 'git push' in future)
 
 
 
@@ -100,7 +101,7 @@ Case 2: commited changes (for one commit)
 Case 3: commited changes (for many commits)
 * git log (to check commit history and commit hash)
 * git reset <- commit hash ->
-* git reset --hard <- commit hash -> (remove extra changes)
+* git reset --hard <- commit hash -> (remove extra changes) !be careful using
 
 
 

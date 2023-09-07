@@ -70,7 +70,7 @@ It is used to create new repository
 * git branch                      (To check remote branches)
 * git branch -M main <-new name-> (To rename branch)
 * git push origin main
-* git push -u origin main         (setting 'origin main' to not repeat(optional))
+* git push -u origin main         (to simply use 'git push' in future)
 * git checkout <-branch name->    (to navigate)
 * git checkout -b <-new branch->  (to create new branch)
 * git branch -d <-branch name->   (to delete branch)
@@ -83,6 +83,9 @@ It is used to create new repository
 OR
 Create a Pull Request (to merge branches)
 
+Git Ull is used to fetch and download content from a remote repository and immediately update the loack repo to match that content.
+* git pull origin main
+* git pull -u origin main (to simply use 'git pull' in future)
 
 
 

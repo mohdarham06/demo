@@ -97,10 +97,16 @@ Case 1: staged changes
 Case 2: commited changes (for one commit)
 * git reset HEAD~1 "some message"
 
+Case 3: commited changes (for many commits)
+* git log (to check commit history and commit hash)
+* git reset <- commit hash ->
+* git reset --hard <- commit hash -> (remove extra changes)
 
 
-// Mistake added
-// Mistake added
+
+
+
+
 
 
 

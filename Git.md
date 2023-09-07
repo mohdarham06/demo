@@ -46,8 +46,8 @@ for all files (use 'git add .')
 
 ### commit
 It is the record of changes.
-git commit -m "some message"
-* git commit -m "Some new files"
+git commit -m <-"some message"->
+* git commit -m "learned about branches"
 
 
 

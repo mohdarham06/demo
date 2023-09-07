@@ -37,8 +37,8 @@ File status lifecycle--> untracked->unmodified->modified->staged
 
 ### add
 Adds new changes in fles in four working directory to the Git staging area.
-git add <- file name ->
-for all files (use 'git add .')
+* git add <- file name ->
+* use 'git add .' (for all files)
 * git add index.html
 * git add .
 
@@ -46,7 +46,7 @@ for all files (use 'git add .')
 
 ### commit
 It is the record of changes.
-git commit -m <-"some message"->
+* git commit -m <-"some message"->
 * git commit -m "learned about branches"
 
 
@@ -70,7 +70,7 @@ It is used to create new repository
 * git branch                      (To check remote branches)
 * git branch -M main <-new name-> (To rename branch)
 * git push origin main
-* git push -u origin main         (setting 'origin main' to not repeat(optional))
+* git push -u origin main         (to simply use 'git push' in future)
 * git checkout <-branch name->    (to navigate)
 * git checkout -b <-new branch->  (to create new branch)
 * git branch -d <-branch name->   (to delete branch)
@@ -78,10 +78,16 @@ It is used to create new repository
 
 
 ### Merging Code
-*git diff <-branch name> (to compare commits,  branches, files & more)
-*git merge <-branch name> (to merge 2 branches)
+* git diff <-branch name> (to compare commits, branches, files & more)
+* git merge <-branch name> (to merge 2 branches)
 OR
 Create a Pull Request (to merge branches)
+
+Git Ull is used to fetch and download content from a remote repository and immediately update the loack repo to match that content.
+* git pull origin main
+* git pull -u origin main (to simply use 'git pull' in future)
+
+
 
 
 

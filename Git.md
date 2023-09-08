@@ -12,30 +12,25 @@ helps to colaborate in organised way by tracking history.
 
 
 ## Configuring Git
-
 * git config --global user.name "Mohd Arham"
 * git config --global user.email "mohdarham0634@gmail.com"
 * git config --list
 
 
-
-## Basic Git Commands
-
-### Clone Command
+## clone Command
 Cloning a repo in your local machine.
-git clone <- link ->
-* git clone https://github.com/mohdarham06/demo.git
+* git clone <- link ->
 
 
 
-### Status Command
+## status Command
 Display the status of code.
 File status lifecycle--> untracked->unmodified->modified->staged
 * git status
 
 
 
-### add
+## add
 Adds new changes in fles in four working directory to the Git staging area.
 * git add <- file name ->
 * use 'git add .' (for all files)
@@ -44,21 +39,21 @@ Adds new changes in fles in four working directory to the Git staging area.
 
 
 
-### commit
+## commit
 It is the record of changes.
 * git commit -m <-"some message"->
 * git commit -m "learned about branches"
 
 
 
-### push
+## push
 Upload local repository content to remote repository
 * git push origin main
 * git push -u origin main         (to simply use 'git push' in future)
 
 
 
-### init
+## init
 It is used to create new repository
 * git init
 * git remote add origin <- link ->
@@ -67,7 +62,7 @@ It is used to create new repository
 
 
 
-### Git Branches Commands
+## Git Branches Commands
 * git branch                      (To check remote branches)
 * git branch -M main <-new name-> (To rename branch)
 * git push origin main
@@ -78,19 +73,19 @@ It is used to create new repository
 
 
 
-### Merging Code
+## Merging Code
 * git diff <-branch name> (to compare commits, branches, files & more)
 * git merge <-branch name> (to merge 2 branches)
 OR
-Create a Pull Request (to merge branches)
+* Create a Pull Request (to merge branches)
 
-Git Ull is used to fetch and download content from a remote repository and immediately update the loack repo to match that content.
+Git pUll is used to fetch and download content from a remote repository and immediately update the loack repo to match that content.
 * git pull origin main
 * git pull -u origin main (to simply use 'git pull' in future)
 
 
 
-### Fixing Mistakes
+## Fixing Mistakes
 Case 1: staged changes
 * git reset <-file name->
 * git reset (for all files)
